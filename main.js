@@ -35,5 +35,5 @@ const filename = 'input.txt'; // Укажите здесь имя файла, и
 const text = readTextFromFile(filename);
 if (text !== null) {
     const cleanedText = cleanText(text);
-    console.log(cleanedText);
+    fs.writeFileSync('out.txt', cleanedText);
 }
