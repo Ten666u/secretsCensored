@@ -37,3 +37,5 @@ if (text !== null) {
     const cleanedText = cleanText(text);
     fs.writeFileSync('out.txt', cleanedText);
 }
+
+module.exports = { cleanText };

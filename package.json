@@ -4,7 +4,7 @@
   "description": "Secrets censored with Jest testing",
   "main": "main.js",
   "scripts": {
-    "test": "npm jest"
+    "test": "jest"
   },
   "keywords": [
     "js",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
   }
 }
