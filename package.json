@@ -1,0 +1,16 @@
+{
+  "name": "secretscensored",
+  "version": "1.0.0",
+  "description": "Secrets censored with Jest testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "jest"
+  ],
+  "author": "Maxim Bardin",
+  "license": "ISC"
+}
