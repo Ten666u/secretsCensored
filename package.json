@@ -4,7 +4,7 @@
   "description": "Secrets censored with Jest testing",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "js",
